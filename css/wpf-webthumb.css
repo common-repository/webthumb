@@ -1,0 +1,29 @@
+.alert-message {
+  background-color: #e6e6e6;
+  margin-bottom: 18px;
+  padding: 8px 15px;
+  color: #fff;
+  width: 30%;
+}	
+.alert-message.error {
+  background-color: #d83a2e;
+  border-bottom-color: #b32b21;
+}
+.alert-message.warning {
+  background-color: #ffd040;
+  border-bottom-color: #ffc40d;
+}
+.alert-message.success {
+  background-color: #62bc62;
+  border-bottom-color: #46a546;
+}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+

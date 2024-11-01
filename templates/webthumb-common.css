@@ -1,0 +1,22 @@
+/* Template = 1 
+   img 320x240 */
+.webthumb-box {border-width:1px; border-style:solid; padding:3px; margin:2px; background:#D0E0D0; width:320px; cursor:pointer; }
+.webthumb-top {min-height:20px; text-align:center; vertical-align:middle; color:blue;}
+.webthumb-img {text-align:center;}
+.webthumb-bot {min-height:20px; text-align:center; vertical-align:middle; color:blue; word-break:break-all;}
+
+/* Template = 2 */
+.webthumb-gallery-overview {clear: both;  display: block !important;  margin-top: 10px;  overflow: hidden;  width: 100%;}
+.webthumb-gallery-box {float: left; width: 100px;}
+.webthumb-gallery {float: left; margin-right: 5px; text-align: center; width: 90px;}
+.webthumb-gallery img {background-color: #FFFFFF; border: 1px solid #A9A9A9; display: block; margin: 4px 0 4px 5px; padding: 4px; position: relative;}
+.webthumb-gallery img:hover { background-color: #A9A9A9;}
+.webthumb-set {}
+
+#preview{position:absolute; border:1px solid #ccc; background:#333; padding:5px; display:none; color:#fff;}
+
+/* Template = 3 */
+.webthumb-3{width:200px; height:45px; padding:5px; margin:5px; border: dotted green thin;}
+.webthumb-label3 {float:left; margin-left:10px; line-height:2em; max-width:120px; overflow:hidden; font-size:0.8em;}
+.webthumb-gallery3 {float:right; max-width:60px; margin-right:10px;}
+.webthumb-gallery3 img {width:40px;}

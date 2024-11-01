@@ -1,0 +1,327 @@
+# Copyright (C) 2012 WebThumb
+# This file is distributed under the same license as the WebThumb package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WebThumb 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/webthumb\n"
+"POT-Creation-Date: 2014-03-20 13:33+0100\n"
+"PO-Revision-Date: 2014-03-20 13:39+0100\n"
+"Last-Translator: faina09 <stefanocotterli@gmail.com>\n"
+"Language-Team: faina09 <stefanocotterli@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: ../webthumb.php:42
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../webthumb.php:210
+msgid "WPF-WebThumb settings"
+msgstr "Impostazioni di WPF-WebThumb"
+
+#: ../webthumb.php:220
+msgid "Can\\'t create"
+msgstr "Impossibile creare la cartella"
+
+#: ../webthumb.php:222
+msgid "folder. Please create it and make it writable!"
+msgstr ". Per favore crearla e settarla come scrivibile!"
+
+#: ../webthumb.php:240
+msgid "Usage"
+msgstr "Utilizzo"
+
+#: ../webthumb.php:241
+msgid ""
+"Choice the service to use, enter the keys for the service that require them "
+"and save the configuration."
+msgstr ""
+"Scegliere il servizio da usare, inserire le chiavi che il servizio richiede "
+"e salvare la configurazione."
+
+#: ../webthumb.php:242
+msgid ""
+"You should use shortcode. Simply put <strong>[wpf-webthumb]</strong> in post "
+"or page content."
+msgstr ""
+"Utilizza uno shortcode. Inserisci semplicemente <strong>[wpf-webthumb]</"
+"strong> nel contenuto dell'articolo o della pagina."
+
+#: ../webthumb.php:243
+msgid ""
+"You can use the following parameters for the shortcode <strong>[wpf-"
+"webthumb]</strong>, that override previous settings:"
+msgstr ""
+"Puoi utilizzare i seguenti parametri nello shortcode <strong>[wpf-webthumb]</"
+"strong>, in modo da modificare le impostazioni di default:"
+
+#: ../webthumb.php:245
+msgid ""
+"<strong>url</strong>=url-to-grab (default: http://coste.mypressonline.com/"
+"wp/)"
+msgstr ""
+"<strong>url</strong>=url-da-visualizzare (default: http://coste."
+"mypressonline.com/wp/)"
+
+#: ../webthumb.php:246
+msgid "<strong>size</strong>=tiny|small|medium|big"
+msgstr "<strong>size</strong>=tiny|small|medium|big"
+
+#: ../webthumb.php:247
+msgid "<strong>showurl</strong>=1|0 (default: 1=yes)"
+msgstr "<strong>showurl</strong>=1|0 (default: 1=si)"
+
+#: ../webthumb.php:248
+msgid "<strong>showsml</strong>=1|0 (default: 0=no)"
+msgstr "<strong>showsml</strong>=1|0 (default: 0=no)"
+
+#: ../webthumb.php:249
+msgid "<strong>label</strong>=label to show (if any)"
+msgstr "<strong>label</strong>=etichetta da visualizzare (se presente)"
+
+#: ../webthumb.php:250
+msgid "<strong>template</strong>=N (default=1, see FAQ)"
+msgstr "<strong>template</strong>=N (default=1, vedi le FAQ)"
+
+#: ../webthumb.php:252
+msgid ""
+"Code usage sample: <strong>[wpf-webthumb url=faina09.it/ size=small "
+"showsml=yes label=\"faina09 WordPress site\" template=3]</strong>"
+msgstr ""
+"Esempio di utilizzo del codice: <strong>[wpf-webthumb url=faina09.it/ "
+"size=small showsml=yes label=\"Sito WordPress Faina09\" template=3]</strong>"
+
+#: ../webthumb.php:253
+msgid "Cache tab usage"
+msgstr "Utilizzo tab Cache"
+
+#: ../webthumb.php:254
+msgid ""
+"In the Cache tab it is possible to review, delete and update the thumbnails."
+msgstr ""
+"Nela pagina Cache è possibile rivedere, cancellare e aggiornare le "
+"thumbnails."
+
+#: ../webthumb.php:255
+msgid ""
+"The update will use the saved configuration. Note that is not possible to "
+"save thumbnails if the service is \"ShrinkTheWeb (jscript)\"."
+msgstr ""
+"L'aggiornamento usa la configurazione salvata. Non è possibile salvare "
+"thumbnails con il servizio  \"ShrinkTheWeb (jscript)\"."
+
+#: ../webthumb.php:256
+msgid ""
+"Since the URL is NOT stored anyway, you MUST edit the proposed URL to have "
+"the \"Update thumbnail\" link works correctly."
+msgstr ""
+"Poiché l'URL non è registrato da nessuna parte, è necessario apportare "
+"eventuali correzioni all'URL proposto perché il link \"Aggiorna thumbnails\" "
+"funzioni correttamente."
+
+#: ../webthumb.php:257
+msgid ""
+"When a file in the cache is older than the maximun days set, it will be "
+"fetched again (only 2 new images for each page request)."
+msgstr ""
+"Quando un file in cache è più vecchio del numero di giorni prefissato, viene "
+"aggiornato (solamente due immagini alla volta)."
+
+#: ../webthumb.php:263
+msgid ""
+"WPF-WebThumb and its creator are not affiliated with bluga.net, PagePeeker, "
+"ShrinkTheWeb or WebToPicture in any way; if you find any other service of "
+"interest please leave a message!"
+msgstr ""
+"WPF-WebThumb ed il suo autore non sono associabili in alcun modo a bluga."
+"net, PagePeeker, ShrinkTheWeb o WebToPicture; se trovi un altro servizio "
+"interessante lasciami un messaggio!"
+
+#: ../wpf-webthumb_admin_cache.php:17
+msgid "Updating from URL "
+msgstr "Aggiorna dall'URL "
+
+#: ../wpf-webthumb_admin_cache.php:49 ../wpf-webthumb_admin_cache.php:59
+msgid "Image thumbnail name"
+msgstr "Nome immagine thumbnail"
+
+#: ../wpf-webthumb_admin_cache.php:50 ../wpf-webthumb_admin_cache.php:60
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ../wpf-webthumb_admin_cache.php:51 ../wpf-webthumb_admin_cache.php:61
+msgid "Age (days, hours, min, sec)"
+msgstr "Età (giorni[d], ore[h], min, sec)"
+
+#: ../wpf-webthumb_admin_cache.php:52 ../wpf-webthumb_admin_cache.php:62
+msgid "Last modified"
+msgstr "Ultima modifica"
+
+#: ../wpf-webthumb_admin_cache.php:53 ../wpf-webthumb_admin_cache.php:63
+msgid "File size (Byte)"
+msgstr "Dimensione del file (Byte)"
+
+#: ../wpf-webthumb_admin_cache.php:91
+msgid "Delete"
+msgstr "Cancella"
+
+#: ../wpf-webthumb_admin_cache.php:92
+msgid "Update thumbnail"
+msgstr "Aggiorna thumbnail"
+
+#: ../wpf-webthumb_admin_settings.php:18
+msgid "Your settings were successfully saved"
+msgstr "Le impostazioni sono state salvate"
+
+#: ../wpf-webthumb_admin_settings.php:20
+msgid "Your settings could not be saved or are not changed. Please try again."
+msgstr ""
+"Le impostazioni non sono state salvate o non sono cambiate. Per favore "
+"riprovare."
+
+#: ../wpf-webthumb_admin_settings.php:44
+msgid "Configure WPF-WebThumb options"
+msgstr "Configura le opzioni di WPF-WebThumb"
+
+#: ../wpf-webthumb_admin_settings.php:45
+msgid "Select the service to use (see FAQ):"
+msgstr "Seleziona il servizio da usare (vedi le FAQ)"
+
+#: ../wpf-webthumb_admin_settings.php:54
+msgid ""
+" Try <a href=\"http://www.webtopicture.com/\" target=\"_blank"
+"\">WebToPicture</a> first."
+msgstr ""
+"Prova prima <a href=\"http://www.webtopicture.com/\" target=\"_blank"
+"\">WebToPicture</a>."
+
+#: ../wpf-webthumb_admin_settings.php:55
+msgid ""
+"Please register at <a href=\"http://webthumb.bluga.net/home\" target=\"_blank"
+"\">bluga.net webthumb API</a> service"
+msgstr ""
+"Per favore registrati al servizio <a href=\"http://webthumb.bluga.net/home\" "
+"target=\"_blank\">bluga.net webthumb API</a>"
+
+#: ../wpf-webthumb_admin_settings.php:55
+msgid "and insert here your APIKEY: "
+msgstr "e inserisci qui la tua APIKEY:"
+
+#: ../wpf-webthumb_admin_settings.php:58
+msgid ""
+"More info about <a href=\"http://pagepeeker.com/\" target=\"_blank"
+"\">PagePeeper</a> service."
+msgstr ""
+"Informazioni sul servizio <a href=\"http://www.pagepeeker.com\" target="
+"\"_blank\">PagePeeper</a>."
+
+#: ../wpf-webthumb_admin_settings.php:60
+msgid ""
+"Please register at <a href=\"http://www.shrinktheweb.com\" target=\"_blank"
+"\">ShrinkTheWeb</a> service"
+msgstr ""
+"Per favore registrati al servizio <a href=\"http://www.shrinktheweb.com\" "
+"target=\"_blank\">ShrinkTheWeb</a>"
+
+#: ../wpf-webthumb_admin_settings.php:60
+msgid "and insert here your ACCESS KEY: "
+msgstr "e inserisci qui la tua ACCESS KEY:"
+
+#: ../wpf-webthumb_admin_settings.php:62
+msgid " and here your SECRET KEY: "
+msgstr "e inserisci qui la tua SECRET KEY:"
+
+#: ../wpf-webthumb_admin_settings.php:65
+msgid "Some defaults:"
+msgstr "Alcuni default:"
+
+#: ../wpf-webthumb_admin_settings.php:66
+msgid "select thumbnail default download size:"
+msgstr "selezionare la dimensione di default per il thumbnail:"
+
+#: ../wpf-webthumb_admin_settings.php:74
+msgid "Set maximum cache age in days (0=do not cache, -1=never refresh): "
+msgstr ""
+"Imposta la età massima per la cache in giorni (0=niente cache, -1=non "
+"rinfrescare mai):"
+
+#: ../wpf-webthumb_admin_settings.php:78
+msgid " show URL"
+msgstr " visualizza URL"
+
+#: ../wpf-webthumb_admin_settings.php:81
+msgid " show small image; show bigger image when mouse is over"
+msgstr ""
+" visualizza immagine ridotta; spostando il mouse sopra si visualizza "
+"l'immagine in grande"
+
+#: ../wpf-webthumb_admin_settings.php:83
+msgid "thumbnails dir is: "
+msgstr "la dir per i thumbail è: "
+
+#: ../wpf-webthumb_admin_settings.php:84
+msgid "thumbnails url is: "
+msgstr "l' url per i thumbail è: "
+
+#: ../wpf-webthumb_admin_settings.php:87
+msgid "Save Changes"
+msgstr "Salva"
+
+#: ../wpf-webthumb_widget.php:45
+msgid "title"
+msgstr "titolo"
+
+#: ../wpf-webthumb_widget.php:48
+#, fuzzy
+msgid "url"
+msgstr "URL"
+
+#: ../wpf-webthumb_widget.php:51
+msgid "template Nr."
+msgstr "Nr. template"
+
+#: ../wpf-webthumb_widget.php:54
+msgid "label"
+msgstr "etichetta"
+
+#. Plugin Name of the plugin/theme
+msgid "WebThumb"
+msgstr "WebThumb"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/webthumb/"
+msgstr "http://wordpress.org/extend/plugins/webthumb/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create thumbnails of any web page using a choice of webthumb API services: "
+"<a href=\"http://webthumb.bluga.net/home\" target=\"_blank\">bluga.net</a>, "
+"<a href=\"http://pagepeeker.com/\" target=\"_blank\">PagePeeper API</a> or "
+"<a href=\"http://www.shrinktheweb.com/\" target=\"_blank\">ShrinkTheWeb</a>."
+msgstr ""
+"Crea thumbnails di qualsiasi pagina web usando a scelta le API di uno dei "
+"servizi di webthumb: <a href=\"http://webthumb.bluga.net/home\" target="
+"\"_blank\">bluga.net</a>, <a href=\"http://pagepeeker.com/\" target=\"_blank"
+"\">PagePeeper API</a> o <a href=\"http://www.shrinktheweb.com/\" target="
+"\"_blank\">ShrinkTheWeb</a>."
+
+#. Author of the plugin/theme
+msgid "faina09"
+msgstr "faina09"
+
+#. Author URI of the plugin/theme
+msgid "http://profiles.wordpress.org/faina09"
+msgstr "http://profiles.wordpress.org/faina09"
+
+#~ msgid ""
+#~ "Create thumbnails of web pages using <a href=\"http://webthumb.bluga.net/"
+#~ "home\" target=\"_blank\">bluga.net webthumb API</a> service (registration "
+#~ "needed)"
+#~ msgstr ""
+#~ "Crea thumbnail delle pagine web pages utilizzando il serivizio <a href="
+#~ "\"http://webthumb.bluga.net/home\" target=\"_blank\">bluga.net webthumb "
+#~ "API</a> (necessaria registratione)"
